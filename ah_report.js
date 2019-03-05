@@ -5,8 +5,8 @@
    Tutorial 10
    Case Problem 3
 
-   Author:  
-   Date:   
+   Author:  Melinda Chirila
+   Date:   3/5/2019
    
    Filename: ah_report.js
    
@@ -27,7 +27,6 @@
       information for the donor
       
 */
-
 
 var donationTotal = 0;
 
