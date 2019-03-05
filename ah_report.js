@@ -27,6 +27,7 @@
       information for the donor
       
 */
+//the build of the donor table
 
 var donationTotal = 0;
 
@@ -43,6 +44,8 @@ var majorDonors = donors.filter(findMajorDonors);
 majorDonors.sort(donorSortDescending);
 
 var donorTable = "<table><caption>Major Donors</caption><tr><th>Donation</th><th>Donor ID</th> <th>Date</th><th>Name</th><th>Address</th><th>Phone</th><th>E-mail</th></tr>";
+
+//the tablw for the major donors
 
 majorDonors.forEach(writeDonorRow);
 
